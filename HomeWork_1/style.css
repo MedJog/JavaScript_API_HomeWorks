@@ -1,0 +1,45 @@
+
+.mega-title {
+  font-size: 32px;
+  text-decoration: underline;
+  color: rgb(222, 11, 212);
+}
+.classes-list {
+  list-style: none;
+}
+.list-item {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 5px;
+}
+.class-name {
+  font-size: 24px;
+  color: rgb(249, 8, 209);
+}
+.class {
+  font-size: 20px;
+  color: gray;
+}
+.value {
+  font-size: 20px;
+  color: rgb(249, 8, 209);
+}
+
+.button {
+  border: 1px solid darkmagenta;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+}
+.active:hover {
+  transform: scale(1.01);
+}
+.active {
+  cursor: pointer;
+  background-color: rgb(249, 8, 209);
+}
+.inactive {
+  background-color: gray;
+}
