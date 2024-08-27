@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:"Pacifico", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+.section {
+  background-color: rgb(85, 249, 238);
+}
+.center {
+  padding-right: calc(50% - 1140px /2);
+  padding-left: calc(50% - 1140px /2);
+}
+.mega-title {
+  font-size: 34px;
+  color: darkblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 800px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.img {
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.button {
+  padding: 5px;
+  font-size: 24px;
+  color: darkblue;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid darkblue;
+  background-color: rgb(227, 246, 246);
+  border-radius: 10px;
+}
+.indicators {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.indicator {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid darkblue;
+  background-color: rgb(227, 246, 246);
+  border-radius: 5px;
+}
+.active {
+  background-color: darkblue;
+}
+.button:hover {
+ transform: scale(1.03);
+}
+.indicator:hover {
+  transform: scale(1.03);
+}
+.hidden {
+  display: none;
+}
