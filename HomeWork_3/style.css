@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+  font-weight: 400;
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding-right: calc(50% - 1140px / 2);
+  padding-left: calc(50% - 1140px / 2);
+}
+.image-title {
+  font-size: 34px;
+  color: darkblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.info {
+  margin-bottom: 20px;
+}
+.autor {
+  font-size: 24px;
+  color: darkblue;
+}
+.autor-name {
+  font-size: 24px;
+  color: rgb(242, 65, 204);
+  margin-bottom: 20px;
+}
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 24px;
+  color: darkblue;
+}
+.like-count {
+  font-size: 28px;
+  color: rgb(242, 65, 204);
+}
+.button {
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: darkblue;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid darkblue;
+  background-color: rgb(227, 246, 246);
+}
+.button:hover {
+  transform: scale(1.03);
+}
+.history {
+  margin-top: 20px;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.history-photo {
+  width: 30%;
+  padding: 20px;
+}
+.message {
+  font-size: 24px;
+  color: darkblue;
+}
